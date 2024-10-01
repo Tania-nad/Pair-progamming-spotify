@@ -5,43 +5,37 @@
     justify-content: space-between;
     position: sticky;
     top:0;
-
-
-    
+    align-items: center;
 }
 .body{
-    height: 160vh;
     background-color: aqua;
+    
 }
 
-
 .logo{
-background-color: aqua;
+   background-color: aqua;
     width: 100px;
-    padding: 10px;
     margin-top: 10px;
 }
 .menu{
     background-color: aqua;
     width: 30px;
-    padding: 10px;
     margin-top: 10px;
-    
-
 }
+
 html{
     font-size: 16px;
 }
 
-.hero {height: 50%;
-    background-color: #7593eb;}
-
+.hero {
+    background-color: #7593eb;
+}
 
 .titulo {
-
     color: white;
     padding:10px;
 }
+
 .subtitulo {
     padding: 10px;
     color: white;
@@ -50,12 +44,11 @@ html{
 .boton{
     background-color: green;
     padding: 15px;
-    position: fixed;
-    
-
-
 }
 
-.condiciones{
 
+@media screen and (min-width: 480px){
+.menu{
+    display: none;
+}
 }
