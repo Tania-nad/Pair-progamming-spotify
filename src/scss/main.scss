@@ -1,0 +1,62 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+.encabezado{
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    align-items: center;
+}
+.body{
+    background-color: aqua;
+    
+}
+
+.logo{
+   background-color: aqua;
+    width: 100px;
+    margin-top: 10px;
+}
+.menu{
+    background-color: aqua;
+    width: 30px;
+    margin-top: 10px;
+}
+
+html{
+    font-size: 16px;
+}
+
+.hero {
+    background-color: #7593eb;
+}
+
+.titulo {
+    color: white;
+    padding:10px;
+}
+
+.subtitulo {
+    padding: 10px;
+    color: white;
+}
+
+.boton{
+    background-color: green;
+    padding: 15px;
+}
+
+
+@media screen and (min-width: 480px){
+.menu{
+    display: none;
+}
+}
