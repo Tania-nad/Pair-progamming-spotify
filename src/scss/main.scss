@@ -1,27 +1,7 @@
-.encabezado{
-    background-color: black;
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top:0;
-    align-items: center;
-}
-.body{
-    background-color: aqua;
-    
-}
+@import "pages/header";
+@import "pages/body";
 
-.logo{
-   background-color: aqua;
-    width: 100px;
-    margin-top: 10px;
-}
-.menu{
-    background-color: aqua;
-    width: 30px;
-    margin-top: 10px;
-}
+
 
 html{
     font-size: 16px;
